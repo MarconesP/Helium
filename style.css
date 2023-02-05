@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+p {
+  font-size: 0.8rem;
+}
+body {
+  min-height: 100vh;
+  background: rgba(7, 7, 7, 0.952);
+  color: aliceblue;
+}
+nav {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 10px 20px;
+}
+nav ul {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+.header {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 30px auto;
+}
+h1 {
+  font-size: 5rem;
+}
+.header-left-container h3 {
+  color: #474dff;
+}
+.header-right {
+  width: 50%;
+}
+#modem {
+  width: 100%;
+  margin: 0 auto;
+}
+.infos {
+  display: grid;
+  grid-template-columns: 33% 67%;
+  background: rgb(10, 10, 10);
+  border-radius: 10px;
+}
+
+.btn-container {
+}
+button {
+  border: none;
+  background: #474dff;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 5px;
+}
+.infos-right {
+  width: 67%;
+}
+.investors {
+    display: grid;
+    align-items: center;
+    height: 80%;
+}
+.img-container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+.img-container img {
+  height: 60px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 700px) {
+    body {
+        background: rgba(0, 0, 0, 0.849);
+        
+    }
+    
+      
+      
+      nav {
+        display: block;
+        align-items: center;
+        padding-top: 0%;
+        padding-bottom: 0%;
+      }
+      nav ul {
+        display: grid;
+        grid-template-columns: 20% 40% 40%;
+      }
+      .g {
+        padding-left: 0%;
+      }
+      .explorer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .eco {
+        display: flex;
+        margin-right: 0%;
+        justify-content: flex-end;
+      }
+      .header {
+        margin-top: 0%;
+        display: block;
+      }
+      h1 {
+        padding-top: 0%;
+        text-align: center;
+      }
+
+      .header-left-container h1 {
+        font-size: 4rem;
+      }
+      
+      
+      .infos {
+        display: block;
+        width: 100%;
+        margin: auto;
+        background: black;
+      }
+      
+      .btn-container {
+        display: block;
+        width: 100%;
+        
+      }
+      button {
+        display: block;
+        margin: auto;
+        margin-bottom: 40Px;
+        align-items: center;
+      }
+      .infos-right {
+        margin: auto;
+
+      }
+      .investors {
+        display: block;
+        margin: end;
+        
+      }
+      h3 {
+        display: block;
+        margin: auto;
+        text-align: center;
+       
+      }
+      .img-container {
+        display: block;
+       
+      }
+      .img-container img {
+        display: block;
+        margin: auto;
+        margin-bottom: 40px;
+
+        
+      }
+}
+
+/* Tablete */
+  
+@media screen and (min-width: 701px) and (max-width: 1024px) {
+    
+  
+    nav {
+        display: block;
+        
+    }
+    nav ul {
+        margin-top: 25px;
+    }
+    .infos {
+        display: block;
+        margin: auto;
+        width: 100%;
+    }
+    
+    .infos-right {
+    width: 100%;
+
+      }
+    h3 {
+        font-size: 3em;
+      }
+      .btn-container  {
+        display: grid;
+        width: 75%;
+        margin: auto; 
+      }
+      button {
+        font-size: 2em;
+       margin-top: 20px; 
+      }
+      .img-container {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        justify-items: center;
+    }
+}
+
